@@ -1,5 +1,348 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap");
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+section.hero {
+  background-image: linear-gradient(
+      0deg,
+      rgba(0, 0, 0, 0.25),
+      rgba(0, 0, 0, 0.25)
+    ),
+    url("./asset/Background.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 100vh;
+}
+
+section.hero header {
+  display: flex;
+  color: #ffffff;
+  padding: 50px;
+  justify-content: space-between;
+}
+
+section.hero header .logo {
+  /* font-size: 34px; */
+}
+
+section.hero header a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+section.hero header a.active {
+  font-weight: 700;
+}
+
+section.hero header nav ul {
+  list-style-type: none;
+  display: flex;
+}
+
+section.hero header nav ul li {
+  padding: 0px 20px 0px 20px;
+}
+
+section.hero header .country {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+section.hero .main-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #ffffff;
+  text-align: center;
+  height: 60%;
+  width: 100%;
+}
+
+section.hero .main-content .sub-container {
+  width: 780px;
+}
+
+section.hero .main-content .sub-container h1 {
+  font-size: 48px;
+  font-weight: 400;
+  margin-bottom: 20px;
+}
+
+section.hero .main-content .sub-container p {
+  font-size: 16px;
+  margin-bottom: 50px;
+}
+
+section.hero .main-content .sub-container .search {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+section.hero .main-content .sub-container button.find-trip {
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+  justify-content: space-between;
+  background-color: #43b97f;
+  border-radius: 10px;
+  padding: 10px;
+  outline: none;
+  border: none;
+  width: 30%;
+  color: #ffffff;
+  font-size: 16px;
+}
+
+section.about-us {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding-right: 50px;
+  padding-left: 50px;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  gap: 30px;
+}
+
+section.about-us .section-2 h5 {
+  color: #295943;
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+section.about-us .section-2 h2 {
+  color: #3d3e48;
+  font-size: 27px;
+  margin-bottom: 15px;
+}
+
+section.about-us .section-2 p {
+  color: #3d3e48;
+  font-size: 16px;
+  margin-bottom: 20px;
+  line-height: 28px;
+}
+
+section.about-us .section-2 .counters {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  flex-wrap: wrap;
+}
+
+section.about-us .section-2 .counters .counter-unit {
+  flex-basis: 50%;
+}
+
+section.about-us .section-2 .counters h2,
+section.about-us .section-2 .counters p {
+  margin: 0;
+}
+
+section.about-us .section-2 .counters h2 {
+  color: #295943;
+  font-size: 27px;
+}
+
+section.about-us .section-2 .counters p {
+  margin-bottom: 30px;
+}
+
+section.destination .header, section.testimonials .header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+section.destination .header h4, section.testimonials .header h4 {
+  color: #295943;
+  font-weight: 700;
+  font-size: 16px;
+}
+
+section.destination .header h3, section.testimonials .header h3 {
+  color: #3d3e48;
+  font-size: 27.65px;
+}
+
+section.destination .discoveries {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: 50px;
+  row-gap: 30px;
+  column-gap: 20px;
+  flex-wrap: wrap;
+}
+
+section.destination .discoveries .discovery {
+  flex: 1;
+  background: #ffffff;
+  box-shadow: 1px 2px 12px 1px rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
+  padding: 10px;
+  flex-basis: 30%;
+}
+
+section.destination .discoveries .discovery > img {
+  width: 100%;
+  margin-bottom: 15px;
+  object-fit: cover;
+}
+
+section.destination .discoveries .discovery > h4 {
+  color: #3D3E48;
+  font-weight: 700;
+  font-size: 19px;
+  line-height: 34.56px;
+  margin-bottom: 15px;
+}
+
+section.destination .discoveries .discovery .details {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+section.destination .discoveries .discovery .location {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+section.destination .discoveries .discovery .size {
+  color: #295943;
+  font-size: 16px;
+  font-weight: 700;
+}
+
+section.testimonials {
+  margin-top: 70px;
+  margin-bottom: 70px;
+}
+
+section.testimonials .quotes {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  
+  padding: 50px;
+  row-gap: 30px;
+  column-gap: 20px;
+  width: 100%;
+}
+
+section.testimonials .quotes .quote {
+  display: flex;
+  flex-direction: column;
+  flex-basis: 30%;
+  width: 100%;
+  padding: 10px;
+}
+
+section.testimonials .quotes .quote.active {
+  background-color: #43B97F;
+}
+
+section.testimonials .quotes .quote .header {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  justify-content: flex-start;
+  margin-bottom: 30px;
+}
+
+section.testimonials .quotes .quote .header h4 {
+  font-weight: 700;
+  font-size: 24px;
+  color: #3d3e48;
+  line-height: 27px;
+}
+
+section.testimonials .quotes .quote .content p {
+  font-size: 16px;
+  color: #3d3e48;
+  line-height: 28px;
+}
+
+
+section.testimonials .quotes .quote.active h4, section.testimonials .quotes .quote.active p {
+  color: #ffffff;
+}
+
+footer {
+  background-color: #295943;
+  padding: 50px;
+  color: #ffffff;
+  display: flex;
+  flex-direction: column;
+}
+
+footer .container {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+
+footer .container .container-item {
+
+  flex-basis: 25%;
+}
+
+footer .container .container-item.details {
+  flex-basis: 35%;
+  padding-right: 40px;
+}
+
+footer .container .container-item h3 {
+  margin-bottom: 20px;
+}
+
+footer a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+footer ul li {
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+footer .container .contact h4 {
+  margin-bottom: 15px;
+}
+
+footer .sub-container h4 {
+  margin-bottom: 20px;
+}
+
+footer .sub-container .socials ul {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  gap: 15px;
 }
