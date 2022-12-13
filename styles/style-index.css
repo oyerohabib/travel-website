@@ -1,21 +1,10 @@
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap");
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
-body {
-  font-family: "Poppins", sans-serif;
-}
-
 section.hero {
   background-image: linear-gradient(
       0deg,
       rgba(0, 0, 0, 0.25),
       rgba(0, 0, 0, 0.25)
     ),
-    url("./asset/Background.png");
+    url("../asset/Background.png");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -109,25 +98,35 @@ section.hero .main-content .sub-container button.find-trip {
 section.about-us {
   display: flex;
   flex-direction: row;
-  align-items: center;
+  align-items: flex-start;
   justify-content: space-between;
   padding-right: 50px;
   padding-left: 50px;
   padding-top: 100px;
   padding-bottom: 100px;
   gap: 30px;
+  width: 100%;
+}
+
+section.about-us .section-1,
+section.about-us .section-2 {
+  flex-basis: 50%;
+}
+
+section.about-us img {
+  width: 100%;
 }
 
 section.about-us .section-2 h5 {
   color: #295943;
   font-size: 16px;
-  margin-bottom: 10px;
+  margin-bottom: 20px;
 }
 
 section.about-us .section-2 h2 {
   color: #3d3e48;
   font-size: 27px;
-  margin-bottom: 15px;
+  margin-bottom: 25px;
 }
 
 section.about-us .section-2 p {
@@ -164,20 +163,23 @@ section.about-us .section-2 .counters p {
   margin-bottom: 30px;
 }
 
-section.destination .header, section.testimonials .header {
+section.destination .header,
+section.testimonials .header {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
 }
 
-section.destination .header h4, section.testimonials .header h4 {
+section.destination .header h4,
+section.testimonials .header h4 {
   color: #295943;
   font-weight: 700;
   font-size: 16px;
 }
 
-section.destination .header h3, section.testimonials .header h3 {
+section.destination .header h3,
+section.testimonials .header h3 {
   color: #3d3e48;
   font-size: 27.65px;
 }
@@ -209,7 +211,7 @@ section.destination .discoveries .discovery > img {
 }
 
 section.destination .discoveries .discovery > h4 {
-  color: #3D3E48;
+  color: #3d3e48;
   font-weight: 700;
   font-size: 19px;
   line-height: 34.56px;
@@ -247,7 +249,7 @@ section.testimonials .quotes {
   flex-wrap: wrap;
   justify-content: space-between;
   align-items: center;
-  
+
   padding: 50px;
   row-gap: 30px;
   column-gap: 20px;
@@ -263,7 +265,7 @@ section.testimonials .quotes .quote {
 }
 
 section.testimonials .quotes .quote.active {
-  background-color: #43B97F;
+  background-color: #43b97f;
 }
 
 section.testimonials .quotes .quote .header {
@@ -287,62 +289,19 @@ section.testimonials .quotes .quote .content p {
   line-height: 28px;
 }
 
-
-section.testimonials .quotes .quote.active h4, section.testimonials .quotes .quote.active p {
+section.testimonials .quotes .quote.active h4,
+section.testimonials .quotes .quote.active p {
   color: #ffffff;
 }
 
-footer {
-  background-color: #295943;
-  padding: 50px;
-  color: #ffffff;
-  display: flex;
-  flex-direction: column;
-}
-
-footer .container {
-  display: flex;
-  flex-direction: row;
-  gap: 20px;
-}
-
-footer .container .container-item {
-
-  flex-basis: 25%;
-}
-
-footer .container .container-item.details {
-  flex-basis: 35%;
-  padding-right: 40px;
-}
-
-footer .container .container-item h3 {
-  margin-bottom: 20px;
-}
-
-footer a {
-  color: #ffffff;
-  text-decoration: none;
-}
-
-footer ul li {
-  list-style-type: none;
-  display: flex;
-  flex-direction: column;
-  gap: 15px;
-}
-
-footer .container .contact h4 {
-  margin-bottom: 15px;
-}
-
-footer .sub-container h4 {
-  margin-bottom: 20px;
-}
-
-footer .sub-container .socials ul {
-  display: flex;
-  flex-direction: row;
-  align-items: flex-end;
-  gap: 15px;
+@media screen and (max-width: 992px) {
+  section.hero nav {
+    display: none;
+  }
+  section.about-us {
+    flex-direction: column;
+  }
+  section.destination .discoveries .discovery {
+    flex-basis: 100%;
+  }
 }
