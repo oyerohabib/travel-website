@@ -122,3 +122,15 @@ footer .sub-container .socials ul {
   align-items: flex-end;
   gap: 15px;
 }
+
+@media only screen and (max-width: 480px) {
+  footer .container {
+    flex-direction: column;
+  }
+}
+
+/* @media only screen and (max-width: 768px) {
+  footer .container .container-item {
+    flex-basis: 50%;
+  }
+} */
