@@ -1,0 +1,157 @@
+section.hero {
+  background-image: linear-gradient(
+      0deg,
+      rgba(0, 0, 0, 0.2),
+      rgba(0, 0, 0, 0.2)
+    ),
+    url(../asset/about-bg.png);
+}
+
+section.why-us,
+section.our-team,
+section.services {
+  padding: 50px;
+}
+
+section.why-us .header,
+section.our-team .header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 50px;
+}
+
+section.our-team .header {
+  align-items: flex-start;
+}
+
+section.why-us .header h4,
+section.our-team .header h4 {
+  color: #3d3e48;
+  font-weight: 700;
+  font-size: 27.65px;
+}
+
+section.why-us .header h3,
+section.our-team .header h3 {
+  color: #3d3e48;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+section.why-us .container,
+section.our-team .container,
+section.services .container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 20px;
+  width: 100%;
+}
+
+section.why-us .container .item {
+  flex-basis: 32.3%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+section.why-us .container .item img {
+  object-fit: cover;
+  margin-bottom: 10px;
+  width: 112px;
+  height: 128px;
+  height: auto;
+}
+
+section.why-us .container .item h4 {
+  font-size: 19.2px;
+  font-weight: 400;
+  line-height: 24.56px;
+  margin-bottom: 5px;
+}
+section.why-us .container .item span {
+  font-size: 16px;
+  line-height: 30.8px;
+  color: #3d3e48;
+}
+
+section.about-us {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  padding: 50px;
+  justify-content: center;
+  align-items: center;
+}
+
+section.about-us .part-1 {
+  flex-basis: 75%;
+}
+section.about-us .part-2 {
+  flex-basis: 25%;
+}
+
+section.about-us .part-2 img {
+  object-fit: cover;
+}
+
+section.about-us .part-1 h3 {
+  font-size: 27.65px;
+  font-weight: 700;
+  line-height: 33.18px;
+  color: #3d3e48;
+  margin-bottom: 20px;
+}
+
+section.about-us .part-1 p {
+  font-size: 16px;
+  line-height: 28.8px;
+  color: #3d3e48;
+}
+
+section.our-team {
+  padding-bottom: 100px;
+}
+
+section.our-team .container .team img {
+  margin-bottom: 5px;
+  width: 100%;
+}
+section.our-team .container .team h3 {
+  font-weight: 400;
+  font-size: 19px;
+  line-height: 34.56px;
+  color: #3d3e48;
+}
+
+section.our-team .container .team {
+  flex-basis: 18%;
+}
+
+section.our-team .container .team h4 {
+  font-size: 16px;
+  line-height: 28.8px;
+  font-weight: 400;
+  color: #3d3e48;
+}
+
+section.services {
+  padding-bottom: 100px;
+}
+
+section.services .container .service {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  flex-basis: 23%;
+}
+
+section.services .container .service span {
+  font-size: 19.2px;
+  color: #a8a7ab;
+  line-height: 34.56px;
+}
