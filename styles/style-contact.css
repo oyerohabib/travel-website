@@ -1,0 +1,109 @@
+section.hero-pages {
+  background-image: linear-gradient(
+      0deg,
+      rgba(0, 0, 0, 0.2),
+      rgba(0, 0, 0, 0.2)
+    ),
+    url(../asset/contact-bg.png);
+}
+
+section.main {
+  display: flex;
+  flex-direction: row;
+  padding: 50px;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  gap: 40px;
+  color: #3d3e48;
+}
+
+section.main .part-1 {
+  flex-basis: 60%;
+}
+
+section.main .part-2 {
+  flex-basis: 40%;
+}
+
+section.main .part-1 h3 {
+  font-size: 27.65px;
+  font-weight: 700;
+  line-height: 33.18px;
+  margin-bottom: 20px;
+}
+section.main .part-1 p {
+  font-size: 16px;
+  line-height: 28.8px;
+  margin-bottom: 20px;
+}
+section.main .part-1 form {
+  width: 100%;
+}
+section.main .part-1 form .field {
+  margin-bottom: 15px;
+}
+section.main .part-1 form .field label {
+}
+section.main .part-1 form .field input {
+  width: 100%;
+  padding: 10px 20px;
+  border-radius: 10px;
+  margin-top: 10px;
+}
+section.main .part-1 form .field textarea {
+  width: 100%;
+  padding: 20px;
+  border-radius: 10px;
+  margin-top: 10px;
+}
+
+section.main .part-1 form input.submit {
+  justify-self: flex-start;
+  align-self: flex-start;
+  background: #43b97f;
+  border-radius: 5px;
+  border: none;
+  outline: none;
+  padding: 5px 20px;
+  font-size: 16px;
+  line-height: 180%;
+  color: #fff;
+  cursor: pointer;
+}
+
+section.main .part-2 img {
+  width: 100%;
+  object-fit: cover;
+  margin-bottom: 15px;
+}
+section.main .part-2 .contact-details {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-end;
+  width: 100%;
+  flex-wrap: wrap;
+  gap: 20px;
+  margin-bottom: 30px;
+}
+section.main .part-2 .contact-details .detail {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+section.main .part-2 .sub-footer {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+section.main .part-2 .sub-footer h4 {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 180%;
+}
+section.main .part-2 .sub-footer h2 {
+  font-weight: 400;
+  font-size: 68.8032px;
+  line-height: 120%;
+}
