@@ -20,13 +20,13 @@ section.articles .header {
 }
 
 section.articles .header h4 {
-  color: #3d3e48;
+  color: var(--TitleColor);
   font-weight: 400;
   font-size: 27.65px;
 }
 
 section.articles .header h3 {
-  color: #3d3e48;
+  color: var(--TitleColor);
   font-size: 16px;
   font-weight: 400;
 }
@@ -49,22 +49,22 @@ section.articles .options li {
 }
 section.articles .options a {
   text-decoration: none;
-  color: #3d3e48;
+  color: var(--TitleColor);
   font-weight: 700;
   font-size: 16px;
   line-height: 28.8px;
 }
 
 section.articles .options a.main {
-  color: #fff;
-  background-color: #43b97f;
+  color: var(--white);
+  background-color: var(--primary);
   border: none;
   padding: 10px 20px;
   border-radius: 5px;
 }
 
 section.articles .options a.active {
-  color: #43b97f;
+  color: var(--primary);
 }
 
 section.articles .container {
@@ -95,5 +95,5 @@ section.articles .container .item h4 {
 section.articles .container .item span {
   font-size: 16px;
   line-height: 30.8px;
-  color: #3d3e48;
+  color: var(--TitleColor);
 }

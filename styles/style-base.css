@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap");
+
 * {
   margin: 0;
   padding: 0;
@@ -6,9 +7,17 @@
   font-family: "Poppins", sans-serif;
 }
 
+:root {
+  --primary: #43b97f;
+  --TitleColor: #3d3e48;
+  --TextColor: #a8a7ab;
+  --Secondary: #295943;
+  --white: #fff;
+}
+
 header.other-pages {
   display: flex;
-  color: #3d3e48;
+  color: var(--TitleColor);
   padding-right: 50px;
   padding-left: 50px;
   padding-top: 20px;
@@ -18,17 +27,17 @@ header.other-pages {
 
 header.other-pages .logo {
   /* font-size: 34px; */
-  color: #295943;
+  color: var(--Secondary);
 }
 
 header.other-pages a {
-  color: #3d3e48;
+  color: var(--TitleColor);
   text-decoration: none;
 }
 
 header.other-pages a.active {
   font-weight: 700;
-  color: #43b97f;
+  color: var(--primary);
 }
 
 header.other-pages nav ul {
@@ -55,15 +64,15 @@ section.hero-pages {
   display: flex;
   justify-content: flex-start;
   align-items: flex-end;
-  color: #fff;
+  color: var(--white);
   padding-left: 50px;
   padding-bottom: 30px;
 }
 
 footer {
-  background-color: #295943;
+  background-color: var(--Secondary);
   padding: 50px;
-  color: #ffffff;
+  color: var(--white);
   display: flex;
   flex-direction: column;
 }
@@ -88,7 +97,7 @@ footer .container .container-item h3 {
 }
 
 footer a {
-  color: #ffffff;
+  color: var(--white);
   text-decoration: none;
 }
 
