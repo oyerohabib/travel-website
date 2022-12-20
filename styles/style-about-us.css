@@ -9,7 +9,8 @@ section.hero-pages {
 
 section.why-us,
 section.our-team,
-section.services {
+section.services,
+section.about-us {
   padding: 50px;
 }
 
@@ -20,6 +21,7 @@ section.our-team .header {
   justify-content: center;
   align-items: center;
   padding-bottom: 50px;
+  text-align: center;
 }
 
 section.our-team .header {
@@ -82,9 +84,9 @@ section.about-us {
   display: flex;
   flex-direction: row;
   gap: 20px;
-  padding: 50px;
   justify-content: center;
   align-items: center;
+  flex-wrap: wrap;
 }
 
 section.about-us .part-1 {
@@ -96,6 +98,7 @@ section.about-us .part-2 {
 
 section.about-us .part-2 img {
   object-fit: cover;
+  width: 100%;
 }
 
 section.about-us .part-1 h3 {
@@ -154,4 +157,135 @@ section.services .container .service span {
   font-size: 19.2px;
   color: var(--TextColor);
   line-height: 34.56px;
+}
+
+@media screen and (min-width: 992px) {
+  section.why-us .container {
+    gap: 0px;
+    justify-content: space-between;
+    align-items: flex-end;
+    text-align: center;
+  }
+}
+
+/* media query for tablet screens */
+@media screen and (max-width: 992px) {
+
+  section.why-us .container {
+    justify-content: center;
+    row-gap: 30px;
+  }
+  
+  section.why-us .container .item {
+    flex-basis: 48%;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  
+
+  section.about-us .part-1 h3 {
+    text-align: center;
+  }
+  
+  section.our-team .header {
+    align-items: center;
+  }
+
+  section.our-team .container .team {
+    flex-basis: 30%;
+  }
+
+  section.our-team .container {
+    justify-content: center;
+  }
+
+  section.services .container .service {
+    flex-basis: 45%;
+  }
+}
+
+/* media query for mobile screens */
+@media screen and (max-width: 575px) {
+  section.why-us,
+  section.our-team,
+  section.services,
+  section.about-us {
+    padding: 50px 20px;
+  }
+
+  section.why-us .container {
+    gap: 40px;
+  }
+
+  section.why-us .container .item {
+    flex-basis: 100%;
+  }
+
+  section.why-us .container .item:not(:last-child) {
+    margin-bottom: 0px;
+  }
+
+  section.why-us .container .item img {
+    width: 30%;
+  }
+  section.why-us .container .item span {
+    line-height: 22.8px;
+    text-align: center;
+  }
+
+  section.about-us {
+    flex-direction: column;
+  }
+
+  section.about-us .part-1 {
+    flex-basis: 100%;
+  }
+  section.about-us .part-2 {
+    flex-basis: 100%;
+  }
+
+  section.about-us .part-1 h3 {
+    font-size: 22px;
+    text-align: center;
+  }
+
+  section.about-us .part-1 p {
+    font-size: 16px;
+    line-height: 24.8px;
+    text-align: center;
+  }
+  
+  section.our-team .header {
+    align-items: center;
+  }
+
+  section.why-us .header h4,
+  section.our-team .header h4 {
+    font-size: 22px;
+  }
+
+  section.why-us .header h3,
+  section.our-team .header h3 {
+    font-size: 16px;
+    text-align: center;
+  }
+
+  section.our-team .header p {
+    text-align: center;
+  }
+
+section.our-team .container .team {
+  flex-basis: 100%;
+}
+section.services .container .service {
+  flex-basis: 100%;
+}
+section.our-team .container .team h3 {
+  line-height: 30.56px;
+}
+
+section.our-team .container .team h4 {
+  line-height: 24.8px;
+}
 }

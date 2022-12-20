@@ -1,3 +1,4 @@
+/* hero section */
 section.hero {
   background-image: linear-gradient(
       0deg,
@@ -130,6 +131,7 @@ section.hero .main-content .sub-container button.find-trip img {
   height: 24px;
 }
 
+/* about-us section */
 section.about-us {
   display: flex;
   flex-direction: row;
@@ -195,6 +197,7 @@ section.about-us .section-2 .counters p {
   margin-bottom: 30px;
 }
 
+/* destination section */
 section.destination .header,
 section.testimonials .header {
   display: flex;
@@ -271,6 +274,7 @@ section.destination .discoveries .discovery .size {
   font-weight: 700;
 }
 
+/* testimonials section */
 section.testimonials {
   padding: 50px;
 }
@@ -324,6 +328,7 @@ section.testimonials .quotes .quote.active p {
   color: var(--white);
 }
 
+/* media query for laptop screens */
 @media screen and (max-width: 992px) {
   section.hero nav {
     display: none;
@@ -339,10 +344,13 @@ section.testimonials .quotes .quote.active p {
   }
 }
 
+/* media query for tablet screens */
 @media screen and (max-width: 767px) {
 }
 
+/* media query for mobile screens */
 @media screen and (max-width: 575px) {
+  /* about-us media query section */
   section.about-us {
     padding: 50px 20px;
     gap: 30px;
@@ -364,6 +372,7 @@ section.testimonials .quotes .quote.active p {
     flex-basis: 100%;
   }
 
+  /* destination media query section */
   section.destination .discoveries {
     padding: 50px 20px;
   }
@@ -385,6 +394,7 @@ section.testimonials .quotes .quote.active p {
     font-size: 14px;
   }
 
+  /* testimonials media query section */
   section.testimonials {
     padding: 50px 20px;
   }
@@ -401,6 +411,7 @@ section.testimonials .quotes .quote.active p {
     margin-bottom: 10px;
   }
 
+  /* destination media query section */
   section.destination .header h3,
   section.testimonials .header h3 {
     font-size: 20px;
