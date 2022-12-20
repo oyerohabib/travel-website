@@ -26,10 +26,17 @@ section.story .content p {
 
 section.story .content img {
   object-fit: cover;
+  width: 100%;
 }
 
 section.story .location {
   flex-basis: 25%;
+}
+
+section.story .location img {
+  width: 100%;
+  height: 100%;
+  max-height: 250px;
 }
 
 section.other-destination {
@@ -41,10 +48,10 @@ section.other-destination {
 }
 
 section.other-destination .section-1 {
-  flex-basis: 75%;
+  flex-basis: 65%;
 }
 section.other-destination .section-2 {
-  flex-basis: 25%;
+  flex-basis: 35%;
 }
 section.other-destination .section-1 img {
   width: 100%;
@@ -92,7 +99,8 @@ section.other-destination .section-1 .dual-images {
 section.other-destination .section-1 .dual-images img {
   object-fit: cover;
   border-radius: 5px;
-  height: 280px;
+  height: 100%;
+  width: 100%;
 }
 
 section.other-destination .section-2 .sub-header {
@@ -116,7 +124,7 @@ section.other-destination .section-2 .images .image {
     ),
     url(../asset/Background.png);
   margin-bottom: 15px;
-  height: 255px;
+  height: 100%;
   background-size: cover;
   border-radius: 10px;
   color: var(--white);
@@ -125,6 +133,7 @@ section.other-destination .section-2 .images .image {
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
+  width: 100%;
 }
 
 section.other-destination .section-2 .images .image h3 {
@@ -149,4 +158,108 @@ section.other-destination .section-2 .images .image button {
   line-height: 24px;
   margin-top: 50px;
   cursor: pointer;
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1200px) {
+
+  section.other-destination .section-1 .dual-images img {
+    width: 48%;
+  }
+
+  section.other-destination .section-1 {
+    flex-basis: 60%;
+  }
+  section.other-destination .section-2 {
+    flex-basis: 40%;
+  }
+}
+
+  @media screen and (min-width: 768px) {
+    section.other-destination .section-1 .dual-images img {
+      width: 48%;
+    }
+  }
+
+  @media screen and (min-width: 768px) and (max-width: 992px) {
+    section.other-destination {
+      flex-direction: column;
+      flex-wrap: wrap;
+    }
+    section.other-destination .section-1 {
+      flex-basis: 100%;
+    }
+    section.other-destination .section-2 {
+      flex-basis: 100%;
+    }
+    section.other-destination .section-2 .images {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 20px;
+    }
+    section.other-destination .section-2 .images .image {
+      flex-basis: 48%;
+      margin-bottom: 0;
+    }
+  }
+
+@media screen and (max-width: 768px) {
+  section.story {
+    flex-direction: column;
+    padding: 50px 20px;
+    flex-wrap: wrap;
+  }
+  
+  section.story .content {
+    flex-basis: 100%;
+  }
+  
+  section.story .location {
+    flex-basis: 100%;
+  }
+
+  section.other-destination {
+    padding: 50px 20px;
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+  
+  section.other-destination .section-1 {
+    flex-basis: 100%;
+  }
+  section.other-destination .section-2 {
+    flex-basis: 100%;
+  }
+  
+  section.other-destination .section-1 h2 {
+    font-size: 20px;
+  }
+
+  section.other-destination .section-1 .dual-images img {
+    width: 48%;
+  }
+  
+  section.other-destination .section-1 .dual-images {
+    flex-direction: row;
+    flex-wrap: nowrap;
+  }
+  
+  section.other-destination .section-2 .images .image h3 {
+    font-size: 18px;
+  }
+  
+  section.other-destination .section-2 .images .image button {
+    align-self: flex-start;
+    justify-self: flex-end;
+    background-color: var(--primary);
+    border-radius: 8px;
+    padding: 10px 20px;
+    border: none;
+    outline: none;
+    color: var(--white);
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    margin-top: 50px;
+    cursor: pointer;
+  }
 }
