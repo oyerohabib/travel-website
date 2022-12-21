@@ -16,8 +16,7 @@ section.hero {
 section.hero header {
   display: flex;
   color: var(--white);
-  padding: 50px;
-  padding-top: 40px;
+  padding: 40px 50px 50px;
   justify-content: space-between;
   align-items: center;
 }
@@ -63,7 +62,8 @@ section.hero .main-content {
 }
 
 section.hero .main-content .sub-container {
-  width: 780px;
+  max-width: 780px;
+  padding: 0 25px;
 }
 
 section.hero .main-content .sub-container h1 {
@@ -87,11 +87,15 @@ section.hero .main-content .sub-container .search form {
   box-shadow: 2px 4px 8px 2px rgba(0, 0, 0, 0.25);
 }
 
+section.hero .main-content .sub-container .search form img.location {
+  padding-right: 10px;
+}
+
 section.hero .main-content .sub-container .search input {
   border: none;
   border-left: 1px solid var(--Secondary);
   outline: none;
-  padding: 15px 10px;
+  padding: 12px 8px;
 }
 
 section.hero .main-content .sub-container .search input::placeholder {
@@ -104,8 +108,8 @@ section.hero .main-content .sub-container .search input:nth-child(2) {
   border-left: 0;
 }
 
-section.hero .main-content .sub-container .search input:nth-child(4) {
-  width: 80%;
+section.hero .main-content .sub-container .search input:nth-child(3) {
+  width: 70%;
 }
 
 section.hero .main-content .sub-container button.find-trip {
@@ -129,6 +133,19 @@ section.hero .main-content .sub-container button.find-trip {
 section.hero .main-content .sub-container button.find-trip img {
   width: 24px;
   height: 24px;
+}
+
+section.hero header #check {
+
+  display: none;
+}
+
+section.hero header .checkbtn {
+
+  font-size: 30px;
+  color: black;
+  cursor: pointer;
+  display: none;
 }
 
 /* about-us section */
@@ -330,8 +347,14 @@ section.testimonials .quotes .quote.active p {
 
 /* media query for laptop screens */
 @media screen and (max-width: 992px) {
-  section.hero nav {
-    display: none;
+
+  section.hero header {
+
+    padding: 20px;
+  }
+
+  section.hero header nav ul li {
+    padding: 0px 10px 0px 10px;
   }
   section.about-us {
     flex-direction: column;
@@ -345,11 +368,43 @@ section.testimonials .quotes .quote.active p {
 }
 
 /* media query for tablet screens */
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 768px) {
+  
+  section.hero nav {
+    display: none;
+  }
+
+section.hero header .country {
+  display: none;
+}
+section.hero header .checkbtn {
+  display: block;
+  color: white;
+}
+
+section.hero .main-content .sub-container h1 {
+  font-size: 36px;
+  margin-bottom: 20px;
+  line-height: 32px;
+}
+
+section.hero .main-content .sub-container p {
+  margin-bottom: 30px;
+
+}
+
+section.hero .main-content .sub-container .search input:nth-child(4) {
+  display: none;
+}
 }
 
 /* media query for mobile screens */
 @media screen and (max-width: 575px) {
+
+  section.hero header {
+
+    padding: 20px;
+  }
   /* about-us media query section */
   section.about-us {
     padding: 50px 20px;
@@ -427,4 +482,45 @@ section.testimonials .quotes .quote.active p {
   section.testimonials .quotes .quote .content p {
     line-height: 26px;
   }
+
+  section.hero .main-content .sub-container {
+    padding-top: 80px;
+    padding: 80px 15px 0px;
+  }
+
+  section.hero .main-content .sub-container h1 {
+    font-size: 32px;
+    margin-bottom: 15px;
+    line-height: 36px;
+    font-weight: 700;
+  }
+
+  section.hero .main-content .sub-container p {
+    margin-bottom: 30px;
+
+  }
+  section.hero .main-content .sub-container .search input:nth-child(3), section.hero .main-content .sub-container .search input:nth-child(4) {
+    display: none;
+  }
+
+  section.hero .main-content .sub-container button.find-trip {
+    padding: 5px;
+    font-size: 14px;
+  }
+
+  section.hero .main-content .sub-container button.find-trip img {
+  width: 14px;
+  height: 14px;
+}
+
+section.hero .main-content .sub-container .search form {
+  padding: 8px 10px;
+}
+
+section.hero .main-content .sub-container .search form img.location {
+  padding-right: 7px;
+}
+section.hero .main-content .sub-container .search input:nth-child(2) {
+  width: 80%;
+}
 }
