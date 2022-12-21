@@ -127,4 +127,8 @@ section.articles .container .item span {
   section.articles .container .item {
     flex-basis: 100%;
   }
+
+  section.articles .options ul {
+    gap: 15px;
+  }
 }

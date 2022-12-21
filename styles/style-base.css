@@ -23,7 +23,7 @@ header.other-pages {
   align-items: center;
 }
 
-header.other-pages .logo {
+header.other-pages .logo a {
   font-size: 33.18px;
   color: var(--Secondary);
 }
