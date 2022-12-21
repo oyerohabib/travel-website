@@ -90,10 +90,10 @@ section.about-us {
 }
 
 section.about-us .part-1 {
-  flex-basis: 75%;
+  flex-basis: 70%;
 }
 section.about-us .part-2 {
-  flex-basis: 25%;
+  flex-basis: 30%;
 }
 
 section.about-us .part-2 img {
@@ -166,6 +166,10 @@ section.services .container .service span {
     align-items: flex-end;
     text-align: center;
   }
+
+  section.about-us {
+  flex-wrap: nowrap;
+}
 }
 
 /* media query for tablet screens */
