@@ -55,12 +55,10 @@ header.other-pages .country {
 }
 
 header.other-pages #check {
-
   display: none;
 }
 
 header.other-pages .checkbtn {
-
   font-size: 30px;
   color: black;
   cursor: pointer;
@@ -193,7 +191,7 @@ footer .sub-container .socials ul {
   header.other-pages nav ul {
     display: none;
   }
-  header.other-pages .checkbtn{
+  header.other-pages .checkbtn {
     display: block;
   }
 
@@ -209,7 +207,7 @@ footer .sub-container .socials ul {
     top: 80px;
     left: -100%;
     text-align: center;
-    transition: all .5s;
+    transition: all 0.5s;
   }
 
   header.other-pages nav ul li {
@@ -218,8 +216,7 @@ footer .sub-container .socials ul {
     line-height: 30px;
   }
 
-  
-  header.other-pages #check:checked ~ nav ul{
+  header.other-pages #check:checked ~ nav ul {
     left: 0;
   }
 }

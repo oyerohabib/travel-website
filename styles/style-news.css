@@ -101,17 +101,17 @@ section.articles .container .item span {
 
 @media screen and (min-width: 767px) {
   section.articles .container .item {
-  flex-basis: 30%;
-}
-section.articles .container .item h4 {
-  font-size: 16px;
-}
+    flex-basis: 30%;
+  }
+  section.articles .container .item h4 {
+    font-size: 16px;
+  }
 }
 
 @media screen and (min-width: 575px) and (max-width: 767px) {
   section.articles .container .item {
-  flex-basis: 47.5%;
-}
+    flex-basis: 47.5%;
+  }
 }
 
 @media screen and (max-width: 575px) {
@@ -121,10 +121,10 @@ section.articles .container .item h4 {
   }
 
   section.articles .container {
-  flex-direction: column;
-}
+    flex-direction: column;
+  }
 
-section.articles .container .item {
-  flex-basis: 100%;
-}
+  section.articles .container .item {
+    flex-basis: 100%;
+  }
 }

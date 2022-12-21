@@ -136,12 +136,10 @@ section.hero .main-content .sub-container button.find-trip img {
 }
 
 section.hero header #check {
-
   display: none;
 }
 
 section.hero header .checkbtn {
-
   font-size: 30px;
   color: black;
   cursor: pointer;
@@ -347,9 +345,7 @@ section.testimonials .quotes .quote.active p {
 
 /* media query for laptop screens */
 @media screen and (max-width: 992px) {
-
   section.hero header {
-
     padding: 20px;
   }
 
@@ -369,40 +365,36 @@ section.testimonials .quotes .quote.active p {
 
 /* media query for tablet screens */
 @media screen and (max-width: 768px) {
-  
   section.hero nav {
     display: none;
   }
 
-section.hero header .country {
-  display: none;
-}
-section.hero header .checkbtn {
-  display: block;
-  color: white;
-}
+  section.hero header .country {
+    display: none;
+  }
+  section.hero header .checkbtn {
+    display: block;
+    color: white;
+  }
 
-section.hero .main-content .sub-container h1 {
-  font-size: 36px;
-  margin-bottom: 20px;
-  line-height: 32px;
-}
+  section.hero .main-content .sub-container h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+    line-height: 32px;
+  }
 
-section.hero .main-content .sub-container p {
-  margin-bottom: 30px;
+  section.hero .main-content .sub-container p {
+    margin-bottom: 30px;
+  }
 
-}
-
-section.hero .main-content .sub-container .search input:nth-child(4) {
-  display: none;
-}
+  section.hero .main-content .sub-container .search input:nth-child(4) {
+    display: none;
+  }
 }
 
 /* media query for mobile screens */
 @media screen and (max-width: 575px) {
-
   section.hero header {
-
     padding: 20px;
   }
   /* about-us media query section */
@@ -497,9 +489,9 @@ section.hero .main-content .sub-container .search input:nth-child(4) {
 
   section.hero .main-content .sub-container p {
     margin-bottom: 30px;
-
   }
-  section.hero .main-content .sub-container .search input:nth-child(3), section.hero .main-content .sub-container .search input:nth-child(4) {
+  section.hero .main-content .sub-container .search input:nth-child(3),
+  section.hero .main-content .sub-container .search input:nth-child(4) {
     display: none;
   }
 
@@ -509,18 +501,18 @@ section.hero .main-content .sub-container .search input:nth-child(4) {
   }
 
   section.hero .main-content .sub-container button.find-trip img {
-  width: 14px;
-  height: 14px;
-}
+    width: 14px;
+    height: 14px;
+  }
 
-section.hero .main-content .sub-container .search form {
-  padding: 8px 10px;
-}
+  section.hero .main-content .sub-container .search form {
+    padding: 8px 10px;
+  }
 
-section.hero .main-content .sub-container .search form img.location {
-  padding-right: 7px;
-}
-section.hero .main-content .sub-container .search input:nth-child(2) {
-  width: 80%;
-}
+  section.hero .main-content .sub-container .search form img.location {
+    padding-right: 7px;
+  }
+  section.hero .main-content .sub-container .search input:nth-child(2) {
+    width: 80%;
+  }
 }

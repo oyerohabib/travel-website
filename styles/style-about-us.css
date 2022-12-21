@@ -168,30 +168,28 @@ section.services .container .service span {
   }
 
   section.about-us {
-  flex-wrap: nowrap;
-}
+    flex-wrap: nowrap;
+  }
 }
 
 /* media query for tablet screens */
 @media screen and (max-width: 992px) {
-
   section.why-us .container {
     justify-content: center;
     row-gap: 30px;
   }
-  
+
   section.why-us .container .item {
     flex-basis: 48%;
     justify-content: center;
     align-items: center;
     text-align: center;
   }
-  
 
   section.about-us .part-1 h3 {
     text-align: center;
   }
-  
+
   section.our-team .header {
     align-items: center;
   }
@@ -259,7 +257,7 @@ section.services .container .service span {
     line-height: 24.8px;
     text-align: center;
   }
-  
+
   section.our-team .header {
     align-items: center;
   }
@@ -279,17 +277,17 @@ section.services .container .service span {
     text-align: center;
   }
 
-section.our-team .container .team {
-  flex-basis: 100%;
-}
-section.services .container .service {
-  flex-basis: 100%;
-}
-section.our-team .container .team h3 {
-  line-height: 30.56px;
-}
+  section.our-team .container .team {
+    flex-basis: 100%;
+  }
+  section.services .container .service {
+    flex-basis: 100%;
+  }
+  section.our-team .container .team h3 {
+    line-height: 30.56px;
+  }
 
-section.our-team .container .team h4 {
-  line-height: 24.8px;
-}
+  section.our-team .container .team h4 {
+    line-height: 24.8px;
+  }
 }

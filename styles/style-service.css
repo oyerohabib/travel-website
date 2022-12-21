@@ -251,7 +251,7 @@ section.benefits .header h3 {
     padding: 50px 20px;
     flex-wrap: wrap;
     row-gap: 30px;
-  }  
+  }
   section.services .service {
     flex-basis: 47.5%;
   }
@@ -261,59 +261,59 @@ section.benefits .header h3 {
     padding: 50px 20px;
     justify-content: center;
   }
-  
+
   section.service-imgs .service {
     flex-basis: 47.5%;
   }
 
   section.service-imgs .service h3 {
-  font-size: 20px;
-  line-height: 24px;
-}
+    font-size: 20px;
+    line-height: 24px;
+  }
 
-section.service-imgs .service h4 {
-  font-size: 14px;
-  font-weight: 700;
-  line-height: 24px;
-}
+  section.service-imgs .service h4 {
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 24px;
+  }
 
-section.service-imgs .service p {
-  font-size: 16px;
-  line-height: 24px;
-  margin-bottom: 8px;
-}
+  section.service-imgs .service p {
+    font-size: 16px;
+    line-height: 24px;
+    margin-bottom: 8px;
+  }
 
-section.service-imgs .service button {
-  padding: 8px 15px;
-  border-radius: 8px;
-}
+  section.service-imgs .service button {
+    padding: 8px 15px;
+    border-radius: 8px;
+  }
 
   section.facilities {
     flex-wrap: wrap;
     flex-direction: column;
     padding: 50px 20px;
   }
-  
+
   section.facilities .section-1,
   section.facilities .section-2 {
     flex-basis: 100%;
   }
 
   section.facilities .section-2 .facility {
-  flex-basis: 47.5%;
-}
+    flex-basis: 47.5%;
+  }
 
-section.benefits {
-  padding: 50px 20px;
-}
+  section.benefits {
+    padding: 50px 20px;
+  }
 
-section.benefits .container {
-  flex-direction: row;
-}
+  section.benefits .container {
+    flex-direction: row;
+  }
 
-section.benefits .container .benefit {
-  flex-basis: 47.5%;
-}
+  section.benefits .container .benefit {
+    flex-basis: 47.5%;
+  }
 }
 
 @media screen and (max-width: 575px) {
@@ -323,7 +323,7 @@ section.benefits .container .benefit {
     padding: 50px 20px;
     row-gap: 40px;
   }
-  
+
   section.services .service {
     flex-basis: 100%;
   }
@@ -333,7 +333,7 @@ section.benefits .container .benefit {
     flex-direction: column;
     padding: 50px 20px;
   }
-  
+
   section.service-imgs .service {
     flex-basis: 100%;
   }
@@ -343,47 +343,47 @@ section.benefits .container .benefit {
     flex-direction: column;
     padding: 50px 20px;
   }
-  
+
   section.facilities .section-1,
   section.facilities .section-2 {
     flex-basis: 100%;
   }
 
   section.facilities .section-2 .facility {
-  flex-basis: 100%;
-}
+    flex-basis: 100%;
+  }
 
-section.benefits {
-  padding: 50px 20px;
-}
+  section.benefits {
+    padding: 50px 20px;
+  }
 
-section.benefits .container {
-  flex-direction: column;
-}
+  section.benefits .container {
+    flex-direction: column;
+  }
 
-section.benefits .container .benefit {
-  flex-basis: 100%;
-}
+  section.benefits .container .benefit {
+    flex-basis: 100%;
+  }
 
-section.service-imgs .service h3 {
-  font-size: 20px;
-}
+  section.service-imgs .service h3 {
+    font-size: 20px;
+  }
 
-section.service-imgs .service button {
-  padding: 8px 15px;
-  border-radius: 8px;
-}
+  section.service-imgs .service button {
+    padding: 8px 15px;
+    border-radius: 8px;
+  }
 
-section.facilities .section-1 p {
-  padding-bottom: 10px;
-}
+  section.facilities .section-1 p {
+    padding-bottom: 10px;
+  }
 
-section.benefits .container .benefit {
-  gap: 15px;
-}
+  section.benefits .container .benefit {
+    gap: 15px;
+  }
 
-section.benefits .container .benefit .content h3 {
-  font-size: 24px;
-  margin-bottom: 10px;
-}
+  section.benefits .container .benefit .content h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
 }
