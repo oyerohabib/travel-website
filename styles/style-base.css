@@ -18,10 +18,7 @@
 header.other-pages {
   display: flex;
   color: var(--TitleColor);
-  padding-right: 50px;
-  padding-left: 50px;
-  padding-top: 15px;
-  padding-bottom: 15px;
+  padding: 15px 50px;
   justify-content: space-between;
   align-items: center;
 }
@@ -153,11 +150,35 @@ footer .sub-container .socials ul {
   footer .container .container-item.details {
     flex-basis: 44%;
   }
+
+  header.other-pages {
+    padding: 15px 30px;
+  }
+
+  header.other-pages nav ul li {
+    padding: 0px 10px;
+  }
+
+  header.other-pages .logo {
+    font-size: 24px;
+  }
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 768px) {
   footer .container .container-item.details {
     padding-right: 0px;
+  }
+
+  header.other-pages {
+    padding: 15px 20px;
+  }
+
+  header.other-pages .logo {
+    font-size: 20px;
+  }
+
+  header.other-pages nav ul {
+    display: none;
   }
 }
 
