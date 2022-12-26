@@ -49,6 +49,7 @@ section.hero header .country {
   justify-content: center;
   align-items: center;
   gap: 10px;
+  cursor: pointer;
 }
 
 section.hero .main-content {
