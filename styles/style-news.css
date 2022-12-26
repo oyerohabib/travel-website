@@ -23,12 +23,12 @@ section.articles .header {
 section.articles .header h4 {
   color: var(--TitleColor);
   font-weight: 400;
-  font-size: 27.65px;
+  font-size: 2.765rem;
 }
 
 section.articles .header h3 {
   color: var(--TitleColor);
-  font-size: 16px;
+  font-size: 1.6rem;
   font-weight: 400;
 }
 
@@ -52,7 +52,7 @@ section.articles .options a {
   text-decoration: none;
   color: var(--TitleColor);
   font-weight: 700;
-  font-size: 16px;
+  font-size: 1.6rem;
   line-height: 28.8px;
 }
 
@@ -88,13 +88,13 @@ section.articles .container .item img {
 }
 
 section.articles .container .item h4 {
-  font-size: 19.2px;
+  font-size: 1.92rem;
   font-weight: 400;
   line-height: 24.56px;
   margin-bottom: 5px;
 }
 section.articles .container .item span {
-  font-size: 16px;
+  font-size: 1.6rem;
   line-height: 30.8px;
   color: var(--TitleColor);
 }
@@ -104,7 +104,7 @@ section.articles .container .item span {
     flex-basis: 30%;
   }
   section.articles .container .item h4 {
-    font-size: 16px;
+    font-size: 1.6rem;
   }
 }
 

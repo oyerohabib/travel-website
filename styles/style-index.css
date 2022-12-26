@@ -22,12 +22,13 @@ section.hero header {
 }
 
 section.hero header .logo {
-  font-size: 33.18px;
+  font-size: 3.31rem;
 }
 
 section.hero header a {
   color: var(--white);
   text-decoration: none;
+  font-size: 1.6rem;
 }
 
 section.hero header a.active {
@@ -67,13 +68,13 @@ section.hero .main-content .sub-container {
 }
 
 section.hero .main-content .sub-container h1 {
-  font-size: 48px;
+  font-size: 4.8rem;
   font-weight: 400;
   margin-bottom: 20px;
 }
 
 section.hero .main-content .sub-container p {
-  font-size: 16px;
+  font-size: 1.6rem;
   margin-bottom: 50px;
 }
 
@@ -100,7 +101,7 @@ section.hero .main-content .sub-container .search input {
 
 section.hero .main-content .sub-container .search input::placeholder {
   color: var(--TitleColor);
-  font-size: 16px;
+  font-size: 1.6rem;
   line-height: 28.8px;
 }
 
@@ -125,7 +126,7 @@ section.hero .main-content .sub-container button.find-trip {
   outline: none;
   border: none;
   color: var(--white);
-  font-size: 16px;
+  font-size: 1.6rem;
   line-height: 28.8px;
   cursor: pointer;
   width: 100%;
@@ -141,7 +142,7 @@ section.hero header #check {
 }
 
 section.hero header .checkbtn {
-  font-size: 30px;
+  font-size: 3rem;
   color: black;
   cursor: pointer;
   display: none;
@@ -169,19 +170,19 @@ section.about-us img {
 
 section.about-us .section-2 h5 {
   color: var(--Secondary);
-  font-size: 16px;
+  font-size: 1.6rem;
   margin-bottom: 20px;
 }
 
 section.about-us .section-2 h2 {
   color: var(--TitleColor);
-  font-size: 27px;
+  font-size: 2.7rem;
   margin-bottom: 25px;
 }
 
 section.about-us .section-2 p {
   color: var(--TitleColor);
-  font-size: 16px;
+  font-size: 1.6rem;
   margin-bottom: 20px;
   line-height: 28px;
 }
@@ -206,7 +207,7 @@ section.about-us .section-2 .counters p {
 
 section.about-us .section-2 .counters h2 {
   color: var(--Secondary);
-  font-size: 27px;
+  font-size: 2.7rem;
 }
 
 section.about-us .section-2 .counters p {
@@ -226,13 +227,13 @@ section.destination .header h4,
 section.testimonials .header h4 {
   color: var(--Secondary);
   font-weight: 700;
-  font-size: 16px;
+  font-size: 1.6rem;
 }
 
 section.destination .header h3,
 section.testimonials .header h3 {
   color: var(--TitleColor);
-  font-size: 27.65px;
+  font-size: 2.76rem;
 }
 
 section.destination .discoveries {
@@ -264,7 +265,7 @@ section.destination .discoveries .discovery > img {
 section.destination .discoveries .discovery > h4 {
   color: var(--TitleColor);
   font-weight: 700;
-  font-size: 19px;
+  font-size: 1.9rem;
   line-height: 24.56px;
   margin-bottom: 15px;
 }
@@ -281,12 +282,12 @@ section.destination .discoveries .discovery .location {
   justify-content: center;
   align-items: center;
   gap: 10px;
-  font-size: 16px;
+  font-size: 1.6rem;
 }
 
 section.destination .discoveries .discovery .size {
   color: var(--Secondary);
-  font-size: 16px;
+  font-size: 1.6rem;
   font-weight: 700;
 }
 
@@ -328,13 +329,13 @@ section.testimonials .quotes .quote .header {
 
 section.testimonials .quotes .quote .header h4 {
   font-weight: 700;
-  font-size: 24px;
+  font-size: 2.4rem;
   color: var(--TitleColor);
   line-height: 27px;
 }
 
 section.testimonials .quotes .quote .content p {
-  font-size: 16px;
+  font-size: 1.6rem;
   color: var(--TitleColor);
   line-height: 28px;
 }
@@ -379,7 +380,7 @@ section.testimonials .quotes .quote.active p {
   }
 
   section.hero .main-content .sub-container h1 {
-    font-size: 36px;
+    font-size: 3.6rem;
     margin-bottom: 20px;
     line-height: 32px;
   }
@@ -407,12 +408,12 @@ section.testimonials .quotes .quote.active p {
     margin-bottom: 10px;
   }
   section.about-us .section-2 h2 {
-    font-size: 20px;
+    font-size: 2rem;
     margin-bottom: 15px;
   }
 
   section.about-us .section-2 p {
-    font-size: 14px;
+    font-size: 1.4rem;
     line-height: 24px;
   }
 
@@ -434,12 +435,12 @@ section.testimonials .quotes .quote.active p {
   }
 
   section.destination .discoveries .discovery > h4 {
-    font-size: 16px;
+    font-size: 1.6rem;
     margin-bottom: 10px;
   }
 
   section.destination .discoveries .discovery .size {
-    font-size: 14px;
+    font-size: 1.4rem;
   }
 
   /* testimonials media query section */
@@ -462,12 +463,12 @@ section.testimonials .quotes .quote.active p {
   /* destination media query section */
   section.destination .header h3,
   section.testimonials .header h3 {
-    font-size: 20px;
+    font-size: 2rem;
   }
 
   section.testimonials .quotes .quote .header h4 {
     font-weight: 700;
-    font-size: 20px;
+    font-size: 2rem;
     color: var(--TitleColor);
     line-height: 27px;
   }
@@ -482,7 +483,7 @@ section.testimonials .quotes .quote.active p {
   }
 
   section.hero .main-content .sub-container h1 {
-    font-size: 32px;
+    font-size: 3.2rem;
     margin-bottom: 15px;
     line-height: 36px;
     font-weight: 700;
@@ -498,7 +499,7 @@ section.testimonials .quotes .quote.active p {
 
   section.hero .main-content .sub-container button.find-trip {
     padding: 5px 10px;
-    font-size: 14px;
+    font-size: 1.4rem;
   }
 
   section.hero .main-content .sub-container button.find-trip img {

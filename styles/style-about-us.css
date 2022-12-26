@@ -32,13 +32,13 @@ section.why-us .header h4,
 section.our-team .header h4 {
   color: var(--TitleColor);
   font-weight: 700;
-  font-size: 27.65px;
+  font-size: 2.765rem;
 }
 
 section.why-us .header h3,
 section.our-team .header h3 {
   color: var(--TitleColor);
-  font-size: 16px;
+  font-size: 1.6rem;
   font-weight: 400;
 }
 
@@ -69,13 +69,13 @@ section.why-us .container .item img {
 }
 
 section.why-us .container .item h4 {
-  font-size: 19.2px;
+  font-size: 1.92rem;
   font-weight: 400;
   line-height: 24.56px;
   margin-bottom: 5px;
 }
 section.why-us .container .item span {
-  font-size: 16px;
+  font-size: 1.6rem;
   line-height: 30.8px;
   color: var(--TitleColor);
 }
@@ -102,7 +102,7 @@ section.about-us .part-2 img {
 }
 
 section.about-us .part-1 h3 {
-  font-size: 27.65px;
+  font-size: 2.765rem;
   font-weight: 700;
   line-height: 33.18px;
   color: var(--TitleColor);
@@ -110,7 +110,7 @@ section.about-us .part-1 h3 {
 }
 
 section.about-us .part-1 p {
-  font-size: 16px;
+  font-size: 1.6rem;
   line-height: 28.8px;
   color: var(--TitleColor);
 }
@@ -125,7 +125,7 @@ section.our-team .container .team img {
 }
 section.our-team .container .team h3 {
   font-weight: 400;
-  font-size: 19px;
+  font-size: 1.9rem;
   line-height: 34.56px;
   color: var(--TitleColor);
 }
@@ -135,7 +135,7 @@ section.our-team .container .team {
 }
 
 section.our-team .container .team h4 {
-  font-size: 16px;
+  font-size: 1.6rem;
   line-height: 28.8px;
   font-weight: 400;
   color: var(--TitleColor);
@@ -154,7 +154,7 @@ section.services .container .service {
 }
 
 section.services .container .service span {
-  font-size: 19.2px;
+  font-size: 1.92rem;
   color: var(--TextColor);
   line-height: 34.56px;
 }
@@ -248,12 +248,12 @@ section.services .container .service span {
   }
 
   section.about-us .part-1 h3 {
-    font-size: 22px;
+    font-size: 2.2rem;
     text-align: center;
   }
 
   section.about-us .part-1 p {
-    font-size: 16px;
+    font-size: 1.6rem;
     line-height: 24.8px;
     text-align: center;
   }
@@ -264,12 +264,12 @@ section.services .container .service span {
 
   section.why-us .header h4,
   section.our-team .header h4 {
-    font-size: 22px;
+    font-size: 2.2rem;
   }
 
   section.why-us .header h3,
   section.our-team .header h3 {
-    font-size: 16px;
+    font-size: 1.6rem;
     text-align: center;
   }
 
