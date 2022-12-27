@@ -7,8 +7,11 @@
     <title>Discover Travels</title>
     <link rel="stylesheet" href="../styles/style-base.css" />
     <link rel="stylesheet" href="../styles/style-discover.css" />
-    <script src="../script.js" defer></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/js/all.min.js"></script>
+    <link rel="shortcut icon" href="../asset/favicon.ico" type="image/x-icon" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
   </head>
   <body>
     <header class="other-pages">
@@ -42,7 +45,20 @@
           Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam,
           purus sit amet luctus venenatis, lectus magna fringilla urna,
           porttitor rhoncus dolor purus non enim praesent elementum facilisis
-          leo, vel fringilla est ullamcorper eget nulla facilisi.
+          leo, vel fringilla est ullamcorper eget nulla facilisi. Lorem ipsum
+          dolor sit amet, consectetur adipiscing elit ut aliquam, purus sit amet
+          luctus venenatis,enim lobortis scelerisque fermentum dui faucibus in
+          ornare quam viverra orci sagittis eu volutpat odio facilisis mauris
+          sit amet massa vitae tortor condimentum lacinia quis vel eros donec ac
+          odio tempor orci dapibus ultrices in iaculis nunc sed augue lacus,
+          viverra vitae congue eu, consequat ac felis donec et odio pellentesque
+          diam volutpat commodo sed egestas egestas fringilla fau. enim lobortis
+          scelerisque fermentum dui faucibus in ornare quam viverra orci
+          sagittis eu volutpat odio facilisis mauris sit amet massa vitae tortor
+          condimentum lacinia quis vel eros donec ac odio tempor orci dapibus
+          ultrices in iaculis nunc sed augue lacus, viverra vitae congue eu,
+          consequat ac felis donec et odio pellentesque diam volutpat commodo
+          sed egestas egestas fringilla fau.
         </p>
         <br />
         <p>
@@ -51,7 +67,13 @@
           vitae tortor condimentum lacinia quis vel eros donec ac odio tempor
           orci dapibus ultrices in iaculis nunc sed augue lacus, viverra vitae
           congue eu, consequat ac felis donec et odio pellentesque diam volutpat
-          commodo sed egestas egestas fringilla fau.
+          commodo sed egestas egestas fringilla fau. enim lobortis scelerisque
+          fermentum dui faucibus in ornare quam viverra orci sagittis eu
+          volutpat odio facilisis mauris sit amet massa vitae tortor condimentum
+          lacinia quis vel eros donec ac odio tempor orci dapibus ultrices in
+          iaculis nunc sed augue lacus, viverra vitae congue eu, consequat ac
+          felis donec et odio pellentesque diam volutpat commodo sed egestas
+          egestas fringilla fau.
         </p>
       </div>
       <div class="location">
@@ -59,7 +81,9 @@
       </div>
     </section>
     <section class="other-destination">
-      <div class="section-1">
+      <div class="section-1 wow animate__animated animate__slideInLeft animate__slow"
+        data-wow-offset="200"
+      >
         <img
           src="../asset/festivals.png"
           alt="other-destination"
@@ -104,7 +128,10 @@
           </p>
         </div>
       </div>
-      <div class="section-2">
+      <div
+        class="section-2 wow animate__animated animate__slideInRight animate__slow"
+        data-wow-offset="200"
+      >
         <div class="sub-header">
           <span>Other Destinations</span>
           <a href="#">See all</a>
@@ -201,5 +228,16 @@
         </div>
       </div>
     </footer>
+    <script src="../script.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/js/all.min.js"></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"
+      integrity="sha512-Eak/29OTpb36LLo2r47IpVzPBLXnAMPAVypbSZiZ4Qkf8p/7S/XRG5xp7OKWPPYfJT6metI+IORkR5G8F900+g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script>
+      new WOW().init();
+    </script>
   </body>
 </html>

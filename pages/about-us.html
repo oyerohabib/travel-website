@@ -7,8 +7,11 @@
     <title>About Travelaja</title>
     <link rel="stylesheet" href="../styles/style-base.css" />
     <link rel="stylesheet" href="../styles/style-about-us.css" />
-    <script src="../script.js" defer></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/js/all.min.js"></script>
+    <link rel="shortcut icon" href="../asset/favicon.ico" type="image/x-icon" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
   </head>
   <body>
     <header class="other-pages">
@@ -87,32 +90,35 @@
     </section>
 
     <section class="our-team">
-      <div class="header">
+      <div
+        class="header wow animate__animated animate__slideInUp"
+        data-wow-offset="10"
+      >
         <h4>Our Teams</h4>
         <p>Lorem ipsum dolor sit amet</p>
       </div>
-      <div class="container">
-        <div class="team">
+      <div class="container wow">
+        <div class="team wow animate__animated animate__slideInRight">
           <img src="../asset/team-1.png" alt="team" />
           <h3 class="name">Agung perdana</h3>
           <h4 class="title">Web Designer</h4>
         </div>
-        <div class="team">
+        <div class="team wow animate__animated animate__slideInRight">
           <img src="../asset/team-2.png" alt="team" />
           <h3 class="name">Viola Resti</h3>
           <h4 class="title">Marketing Director</h4>
         </div>
-        <div class="team">
+        <div class="team wow animate__animated animate__slideInRight">
           <img src="../asset/team-3.png" alt="team" />
           <h3 class="name">Rahardianysah</h3>
           <h4 class="title">International Relations</h4>
         </div>
-        <div class="team">
+        <div class="team wow animate__animated animate__slideInRight">
           <img src="../asset/team-4.png" alt="team" />
           <h3 class="name">Andika</h3>
           <h4 class="title">Medical Check</h4>
         </div>
-        <div class="team">
+        <div class="team wow animate__animated animate__slideInRight">
           <img src="../asset/team-5.png" alt="team" />
           <h3 class="name">Theresa Russell</h3>
           <h4 class="title">Doctor Assistant</h4>
@@ -209,5 +215,16 @@
         </div>
       </div>
     </footer>
+    <script src="../script.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/js/all.min.js"></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"
+      integrity="sha512-Eak/29OTpb36LLo2r47IpVzPBLXnAMPAVypbSZiZ4Qkf8p/7S/XRG5xp7OKWPPYfJT6metI+IORkR5G8F900+g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script>
+      new WOW().init();
+    </script>
   </body>
 </html>
