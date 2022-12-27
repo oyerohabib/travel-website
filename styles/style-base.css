@@ -74,6 +74,7 @@ header.other-pages .checkbtn {
   display: none;
   position: absolute;
   right: 20px;
+  top: 18px;
 }
 
 section.hero-pages {
@@ -238,6 +239,15 @@ footer .sub-container .socials ul {
 
   header.other-pages .country {
     display: none;
+  }
+}
+
+@media screen and (min-width: 583px) and (max-width: 768px) {
+  footer .container .container-item p.content {
+    font-size: 1.4rem;
+  }
+  footer .container .contact h4 {
+    font-size: 1.4rem;
   }
 }
 
