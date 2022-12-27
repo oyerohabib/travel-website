@@ -135,11 +135,6 @@ footer .container .container-item h2 {
   margin-bottom: 12px;
 }
 
-footer .container .container-item span.content {
-  font-size: 1rem;
-  line-height: 1.5;
-}
-
 footer .container .container-item.details h3 {
   font-size: 3.31rem;
   font-weight: 400;
@@ -162,13 +157,6 @@ footer ul li {
   display: flex;
   flex-direction: column;
   gap: 15px;
-}
-
-footer .container .contact h5 {
-  margin-bottom: 15px;
-  font-weight: 400;
-  font-size: 1rem;
-  line-height: 1.5;
 }
 
 footer .sub-container h4 {
@@ -209,6 +197,16 @@ footer .sub-container .socials ul {
 @media screen and (max-width: 768px) {
   footer .container .container-item.details {
     padding-right: 0px;
+  }
+
+  footer .container .container-item span.content {
+    font-size: 1.3rem;
+  }
+
+  footer .container .contact h5 {
+    margin-bottom: 15px;
+    font-weight: 400;
+    font-size: 1.3rem;
   }
 
   header.other-pages {
