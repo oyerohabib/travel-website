@@ -206,6 +206,16 @@ footer .sub-container .socials ul {
     padding-right: 0px;
   }
 
+  footer .container .container-item span.content {
+    font-size: 1.3rem;
+  }
+
+  footer .container .contact h5 {
+    margin-bottom: 15px;
+    font-weight: 400;
+    font-size: 1.3rem;
+  }
+
   header.other-pages {
     padding: 15px 20px;
     flex-direction: column;
