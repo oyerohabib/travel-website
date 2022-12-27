@@ -32,7 +32,10 @@ header.other-pages {
   padding: 15px 50px;
   justify-content: space-between;
   align-items: center;
-  position: relative;
+  position: sticky;
+  top: 0;
+  background-color: var(--white);
+  width: 100%;
 }
 
 header.other-pages .logo a {
@@ -212,23 +215,25 @@ footer .sub-container .socials ul {
     align-items: flex-start;
   }
 
+  header.other-pages nav {
+    display: none;
+    width: 100%;
+    height: calc(100vh - 80px);
+  }
+
   header.other-pages nav ul {
     flex-direction: column;
     align-items: center;
+    justify-content: space-evenly;
     width: 100%;
+    height: 100%;
   }
 
   header.other-pages nav ul li {
-    padding: 10px 0px;
   }
 
   header.other-pages .logo {
     font-size: 3rem;
-  }
-
-  header.other-pages nav {
-    display: none;
-    width: 100%;
   }
 
   header.other-pages .navigation.active {
