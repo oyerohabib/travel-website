@@ -336,6 +336,11 @@
         </div>
       </div>
     </footer>
+
+    <div class="back-to-top hide">
+      <a href="#"><i class="fas fa fa-chevron-up"></i></a>
+    </div>
+
     <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/js/all.min.js"></script>
     <script
       src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"
@@ -345,6 +350,12 @@
     ></script>
     <script>
       new WOW().init();
+      const backToTop = document.getElementsByClassName("back-to-top")[0];
+      window.addEventListener("scroll", () => {
+        window.scrollY < 400
+          ? backToTop.classList.add("hide")
+          : backToTop.classList.remove("hide");
+      });
     </script>
   </body>
 </html>
