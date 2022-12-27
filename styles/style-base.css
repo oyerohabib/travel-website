@@ -135,7 +135,7 @@ footer .container .container-item h2 {
   margin-bottom: 12px;
 }
 
-footer .container .container-item p.content {
+footer .container .container-item span.content {
   font-size: 1.6rem;
 }
 
@@ -163,7 +163,7 @@ footer ul li {
   gap: 15px;
 }
 
-footer .container .contact h4 {
+footer .container .contact h5 {
   margin-bottom: 15px;
   font-weight: 400;
   font-size: 1.6rem;
@@ -248,15 +248,6 @@ footer .sub-container .socials ul {
   }
 }
 
-@media screen and (min-width: 583px) and (max-width: 768px) {
-  footer .container .container-item p.content {
-    font-size: 1.4rem;
-  }
-  footer .container .contact h4 {
-    font-size: 1.4rem;
-  }
-}
-
 @media screen and (max-width: 583px) {
   footer {
     padding: 50px 20px;
@@ -281,7 +272,7 @@ footer .sub-container .socials ul {
     margin-bottom: 12px;
   }
 
-  footer .container .contact h4 {
+  footer .container .contact h5 {
     margin-bottom: 10px;
   }
 
