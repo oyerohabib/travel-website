@@ -137,6 +137,7 @@ footer .container .container-item h2 {
 
 footer .container .container-item span.content {
   font-size: 1rem;
+  line-height: 1.5;
 }
 
 footer .container .container-item.details h3 {
@@ -167,6 +168,7 @@ footer .container .contact h5 {
   margin-bottom: 15px;
   font-weight: 400;
   font-size: 1rem;
+  line-height: 1.5;
 }
 
 footer .sub-container h4 {
