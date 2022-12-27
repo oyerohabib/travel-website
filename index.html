@@ -8,6 +8,10 @@
     <link rel="stylesheet" href="./styles/style-base.css" />
     <link rel="stylesheet" href="./styles/style-index.css" />
     <link rel="shortcut icon" href="./asset/favicon.ico" type="image/x-icon" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
     <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/js/all.min.js"></script>
   </head>
   <body>
@@ -73,10 +77,10 @@
       </div>
     </section>
     <section class="about-us">
-      <div class="section-1">
+      <div class="section-1 wow slideInLeft">
         <img src="./asset/travellers-point.png" alt="travellers-point" />
       </div>
-      <div class="section-2">
+      <div class="section-2 wow slideInRight">
         <h5>Travelers Point</h5>
         <h2>We help to find your dream place</h2>
         <p>
@@ -327,5 +331,14 @@
         </div>
       </div>
     </footer>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"
+      integrity="sha512-Eak/29OTpb36LLo2r47IpVzPBLXnAMPAVypbSZiZ4Qkf8p/7S/XRG5xp7OKWPPYfJT6metI+IORkR5G8F900+g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script>
+      new WOW().init();
+    </script>
   </body>
 </html>
