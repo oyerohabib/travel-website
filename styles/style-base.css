@@ -246,8 +246,8 @@ footer .sub-container .socials ul {
     flex-direction: column;
     align-items: center;
     width: 100%;
-    justify-content: space-evenly;
-    height: 100%;
+    justify-content: space-around;
+    height: 80%;
   }
 
   header.other-pages nav ul li {
