@@ -149,6 +149,42 @@ section.hero header .checkbtn {
   display: none;
 }
 
+/* sidebar section */
+.sidebar {
+  position: fixed;
+  top: 0;
+  right: -100%;
+  min-width: 250px;
+  max-width: 300px;
+  height: 100%;
+  background-color: var(--primary);
+  color: var(--white);
+  z-index: 999;
+  padding: 10px 0 20px 20px;
+  font-size: 1.6rem;
+  transition: 0.5s ease-out;
+}
+
+.sidebar li {
+  padding: 20px 0px
+}
+
+.sidebar a {
+  color: var(--white);
+}
+
+.sidebar a.active {
+  font-weight: 700;
+}
+
+.sidebar .checkbtn {
+  position: absolute;
+  right: 20px;
+  top: 20px;
+  font-size: 30px;
+  cursor: pointer;
+}
+
 /* about-us section */
 section.about-us {
   display: flex;

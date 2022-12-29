@@ -32,8 +32,7 @@
           ID
           <img src="./asset/arrow-down-white.png" alt="arrow-down" />
         </div>
-        <input type="checkbox" id="check" />
-        <label for="check" class="checkbtn">
+        <label for="check" class="checkbtn openMenu">
           <i class="fas fa-bars"></i>
         </label>
       </header>
@@ -75,6 +74,23 @@
         </div>
       </div>
     </section>
+
+    <div class="sidebar">
+      <label for="check" class="checkbtn closeMenu">
+        <i class="fas fa-close"></i>
+      </label>
+      <nav class="navigation">
+        <ul>
+          <li><a href="#" class="active">Home</a></li>
+          <li><a href="./pages/discover.html">Discover</a></li>
+          <li><a href="./pages/service.html">Services</a></li>
+          <li><a href="./pages/news.html">News</a></li>
+          <li><a href="./pages/about-us.html">About Us</a></li>
+          <li><a href="./pages/contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+
     <section class="about-us">
       <div
         class="section-1 wow animate__animated animate__slideInLeft animate__slow"
@@ -349,6 +365,9 @@
       referrerpolicy="no-referrer"
     ></script>
     <script>
+      const closeButton = document.querySelector(".closeMenu")
+      const openButton = document.querySelector(".openMenu")
+      const sidebar = document.querySelector(".sidebar")
       new WOW().init();
       const backToTop = document.getElementsByClassName("back-to-top")[0];
       window.addEventListener("scroll", () => {
@@ -356,6 +375,12 @@
           ? backToTop.classList.add("hide")
           : backToTop.classList.remove("hide");
       });
+      openButton.addEventListener("click", () => {
+        sidebar.style.right = 0
+      })
+      closeButton.addEventListener("click", () => {
+        sidebar.style.right = "-100%"
+      })
     </script>
   </body>
 </html>
